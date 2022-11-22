@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header h1,
+a {
+  padding: 0px 10px 0px 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 60px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.creators-text {
+  text-transform: uppercase;
+}
+
+.banner-img {
+  display: flex;
+  justify-content: center;
+}
+.banner-img-import {
+  background-image: url('img/red-kid.jpg');
+  background-size: 100%;
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.banner-content {
+  display: inline-flex;
+}
