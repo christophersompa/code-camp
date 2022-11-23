@@ -1,11 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#bg-1 {
+  background-color: #eddc47;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 header h1 {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 header h1,
@@ -13,11 +25,18 @@ a {
   padding: 0px 10px 0px 10px;
 }
 
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5px 0px;
 }
 
 nav li {
@@ -27,12 +46,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 25px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: 'Literata', serif;
+  font-weight: 300;
 }
 
 .banner {
   display: flex;
   justify-content: center;
+  padding: 20px 0px;
 }
 
 .creators-text {
@@ -42,15 +65,78 @@ nav a {
 .banner-img {
   display: flex;
   justify-content: center;
+  padding: 30px 10px;
 }
 .banner-img-import {
   background-image: url('img/red-kid.jpg');
-  background-size: 100%;
+  background-size: cover;
   width: 900px;
   height: 500px;
-  border-radius: 10px;
+  border-radius: 50px;
+  opacity: 80%;
 }
 
 .banner-content {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-text {
+  width: 500px;
+  padding: 20px;
+}
+
+.banner-text p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.banner-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.btn-trial {
+  color: #eddc47;
+  background-color: #000;
+  font-family: 'Literata', serif;
+  font-weight: 300;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-size: 12px;
+  width: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-learn-more {
+  color: #000;
+  background-color: #eddc47;
+  font-family: 'Literata', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: 1px solid #000;
+  font-size: 12px;
+  width: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.banner h2 {
+  font-family: 'Literata', serif;
+  font-weight: 200;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#creators-text {
+  font-size: 100px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
 }
