@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
 #bg-1 {
   background-color: #eddc47;
 }
@@ -45,7 +50,7 @@ nav a {
   color: black;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   padding: 0px 25px;
 }
@@ -64,7 +69,7 @@ nav a:hover {
 }
 
 .banner h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -96,28 +101,27 @@ nav a:hover {
 
 .banner-text {
   width: 500px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .banner-text p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  text-transform: capitalize;
 }
 
 .banner-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 10px 10px 30px 10px;
 }
 
 .btn-trial {
   color: #eddc47;
   background-color: #000;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
-  padding: 20px;
+  padding: 15px;
   text-transform: uppercase;
   border-radius: 40px;
   font-size: 14px;
@@ -130,9 +134,9 @@ nav a:hover {
 .btn-learn-more {
   color: #000;
   background-color: #eddc47;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
-  padding: 20px;
+  padding: 15px;
   text-transform: uppercase;
   border-radius: 40px;
   border: 1px solid #000;
@@ -157,6 +161,63 @@ nav a:hover {
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+}
+
+.bg2 {
+  background-color: #66ed8a;
+  height: 500px;
+  padding: 50px 80px;
+}
+
+.bg2-content-l {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.bg2-content-l h2 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+
+.bg2-content-l p {
+  padding-bottom: 20px;
+}
+
+.bg2-buttons {
+  flex-direction: row;
+}
+
+.btn-buynow-bg2 {
+  width: 200px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 15px;
+  color: #66ed8a;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.btn-learn-more-bg2 {
+  width: 200px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 14px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #fff;
+  padding: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 620px) {
