@@ -7,28 +7,24 @@
   background-color: #eddc47;
 }
 
+.brand {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.brand:hover {
+  opacity: 80%;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
-
-header h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-header h1,
-a {
-  padding: 0px 8px 0px 8px;
-}
-
-header a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
 }
 
 nav ul {
@@ -44,12 +40,19 @@ nav li {
 }
 
 nav a {
+  padding: 0px 8px 0px 8px;
   text-decoration: none;
   color: black;
   font-size: 17px;
   text-transform: uppercase;
   font-family: 'Playfair Display', serif;
   font-weight: 300;
+  padding: 0px 25px;
+}
+
+nav a:hover {
+  color: #fff;
+  transition: 0.5s;
 }
 
 .banner {
@@ -60,8 +63,15 @@ nav a {
   padding: 10px 0px;
 }
 
-.creators-text {
+.banner h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 30px;
   text-transform: uppercase;
+  text-align: center;
+  padding: 0px;
+  line-height: 1;
+  padding-top: 20px;
 }
 
 .banner-img {
@@ -72,8 +82,8 @@ nav a {
 .banner-img-import {
   background-image: url('img/red-kid.jpg');
   background-size: cover;
-  width: 1000px;
-  height: 500px;
+  width: 800px;
+  height: 350px;
   border-radius: 50px;
   opacity: 80%;
 }
@@ -91,7 +101,7 @@ nav a {
 
 .banner-text p {
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
@@ -110,10 +120,11 @@ nav a {
   padding: 20px;
   text-transform: uppercase;
   border-radius: 40px;
-  font-size: 12px;
-  width: 300px;
+  font-size: 14px;
+  width: 200px;
   margin: 10px;
   cursor: pointer;
+  opacity: 90%;
 }
 
 .btn-learn-more {
@@ -125,25 +136,27 @@ nav a {
   text-transform: uppercase;
   border-radius: 40px;
   border: 1px solid #000;
-  font-size: 12px;
-  width: 300px;
+  font-size: 14px;
+  width: 200px;
   margin: 10px;
   cursor: pointer;
 }
 
-.banner h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0px;
+.btn-trial:hover {
+  opacity: 100%;
+}
+
+.btn-learn-more:hover {
+  background-color: #fff;
+  border: 1px solid transparent;
+  opacity: 90%;
 }
 
 .creators-text {
   font-size: 100px;
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 620px) {
