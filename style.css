@@ -106,7 +106,8 @@ nav a:hover {
 
 .banner-text p {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
+  color: #000;
 }
 
 .banner-buttons {
@@ -165,7 +166,7 @@ nav a:hover {
 
 .bg2 {
   background-color: #66ed8a;
-  height: 500px;
+  height: 100%;
   padding: 50px 80px;
 }
 
@@ -185,7 +186,9 @@ nav a:hover {
 }
 
 .bg2-content-l p {
+  font-weight: 300;
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .bg2-buttons {
@@ -219,6 +222,32 @@ nav a:hover {
   margin: 0px 10px;
   cursor: pointer;
 }
+
+/* .bg2-content-r {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg2-box-1,
+.bg2-box-2,
+.bg2-box-3,
+.bg2-box-4 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.bg2-box-1 p,
+.bg2-box-2 p,
+.bg2-box-3 p,
+.bg2-box-4 p {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+} */
 
 @media screen and (max-width: 620px) {
   .creators-text {
