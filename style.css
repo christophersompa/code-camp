@@ -170,13 +170,13 @@ nav a:hover {
   padding: 50px 80px;
 }
 
-.bg2-content-l {
+.bg2-content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.bg2-content-l h2 {
+.bg2-content h2 {
   font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
@@ -185,7 +185,7 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
-.bg2-content-l p {
+.bg2-content p {
   font-weight: 300;
   padding-bottom: 20px;
   color: #fff;
