@@ -170,24 +170,25 @@ nav a:hover {
   background-color: #50c56f;
   height: 100%;
   padding: 50px 80px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .bg2-content {
+  width: 700px;
+  margin: 40px;
 }
 
 .bg2-content h2 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 800;
   text-transform: uppercase;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  padding-bottom: 20px;
 }
 
 .bg2-content p {
-  font-weight: 500;
-  padding-bottom: 20px;
+  font-weight: 300;
+  padding: 30px 0px 50px 0px;
 
   color: #fff;
 }
