@@ -234,8 +234,36 @@ nav a:hover {
   display: grid;
   width: 500px;
   height: 500px;
-  grid-template: 50% 50% / 50% 50%;
+  grid-template: 1fr 1fr / 1fr 1fr;
   padding-top: 50px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  margin: auto;
+  margin-top: 25px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+}
+
+.icon-1 {
+  background-color: blue;
+}
+
+.icon-2 {
+  background-color: yellowgreen;
+}
+
+.icon-3 {
+  background-color: orangered;
+}
+
+.icon-4 {
+  background-color: purple;
 }
 
 .box-1,
@@ -243,13 +271,23 @@ nav a:hover {
 .box-3,
 .box-4 {
   border: 1px solid #fff;
-  border-radius: 10px;
+}
+
+.box-1,
+.box-4 {
+  border-radius: 0px 100px / 150px;
+}
+
+.box-2,
+.box-3 {
+  border-radius: 100px 0px / 150px;
 }
 
 .grid p {
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   font-weight: 300;
+  text-align: center;
 }
 
 @media screen and (max-width: 620px) {
