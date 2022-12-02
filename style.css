@@ -245,7 +245,7 @@ nav a:hover {
   width: 400px;
   height: 400px;
   grid-template: 1fr 1fr / 1fr 1fr;
-  gap: 30px;
+  gap: 14px;
   margin: 50px 0px 0px 0px;
 }
 
@@ -278,30 +278,30 @@ nav a:hover {
 } */
 
 .box-1 {
-  background-color: #47a5ed;
-  border-radius: 50% 20% / 10% 40%;
+  background-color: #3f3fe0;
+  border-radius: 70% 40% / 50% 80%;
 }
 
 .box-2 {
   background-color: #ec2870;
-  border-radius: 10% 30% 40% / 60% 80% 20%;
+  border-radius: 60% 90% / 70% 50%;
 }
 
 .box-3 {
   background-color: #ec8a28;
-  border-radius: 10% 30% 40% / 60% 80% 20%;
+  border-radius: 60% 90% / 70% 50%;
 }
 
 .box-4 {
   background-color: #ec2828;
-  border-radius: 10% 30% 40% / 60% 80% 20%;
+  border-radius: 70% 40% / 50% 80%;
 }
 
 .box-1,
 .box-2,
 .box-3,
 .box-4 {
-  opacity: 90%;
+  opacity: 80%;
 }
 
 /* .box-1,
