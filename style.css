@@ -85,11 +85,12 @@ nav a:hover {
   padding: 10px 10px;
 }
 .banner-img-import {
-  background-image: url('img/red-kid.jpg');
+  background-image: url('img/home.jpg');
   background-size: cover;
   width: 800px;
   height: 400px;
   /* border-radius: 50px; */
+  background-position: center;
   border-radius: 50% 20% / 10% 40%;
   opacity: 80%;
 }
@@ -303,7 +304,7 @@ nav a:hover {
 .box-2,
 .box-3,
 .box-4 {
-  opacity: 80%;
+  opacity: 90%;
 }
 
 /* .box-1,
@@ -355,6 +356,38 @@ nav a:hover {
   padding-bottom: 30px;
   text-align: center;
 }
+
+.bg3-content img,
+p,
+h2 {
+  padding: 10px;
+}
+
+.bg3-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.age a {
+  text-transform: uppercase;
+}
+
+.bg3-content p {
+  font-weight: 300;
+  color: #fff;
+}
+
+/* .digital-design img,
+.web-development img,
+.game-development img {
+  width: 300px;
+  height: 400px;
+  opacity: 90%;
+  border-radius: 50px;
+} */
 
 .digital-design,
 .game-development,
