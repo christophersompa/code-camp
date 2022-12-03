@@ -170,7 +170,7 @@ nav a:hover {
   flex-wrap: wrap;
   background-color: #50c56f;
   height: 100%;
-  padding: 50px 80px;
+  padding: 30px 0px;
   justify-content: center;
 }
 
@@ -328,6 +328,15 @@ nav a:hover {
   padding: 60px 20px 0px 20px;
   font-weight: 300;
   text-align: center;
+}
+
+.bg3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ec8a28;
+  height: 100%;
+  padding: 50px 80px;
 }
 
 @media screen and (max-width: 620px) {
