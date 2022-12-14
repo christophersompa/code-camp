@@ -141,7 +141,7 @@ nav a:hover {
   padding: 15px;
   text-transform: uppercase;
   border-radius: 40px;
-  border: 1px solid #000;
+  border: 1px dashed #000;
   font-size: 14px;
   width: 200px;
   margin: 10px;
@@ -221,7 +221,7 @@ nav a:hover {
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   font-size: 14px;
-  border: 1px solid #000;
+  border: 1px dashed #000;
   border-radius: 40px;
   background-color: transparent;
   color: #000;
@@ -367,6 +367,26 @@ h2 {
 .web-development-img {
   background-position: 50% 75%;
   background-image: url('img/web-dev.jpg');
+}
+
+.enroll-now {
+  width: 100%;
+  padding: 15px;
+  border: 1px dashed #000;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  margin: 20px 0px;
+  opacity: 85%;
+}
+
+.enroll-now:hover {
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 620px) {
