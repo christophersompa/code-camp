@@ -90,6 +90,7 @@ nav a:hover {
   width: 800px;
   height: 400px;
   background-position: center;
+  border: 1px dashed #000;
   border-radius: 20px;
   opacity: 80%;
 }
@@ -347,6 +348,7 @@ h2 {
 .digital-design-img,
 .game-development-img,
 .web-development-img {
+  border: 1px dashed #000;
   width: 500px;
   height: 300px;
   border-radius: 30px;
@@ -409,11 +411,72 @@ h2 {
   font-weight: 300;
 }
 
+.teachers {
+}
+
 .grid-teacher {
-  display: grid;
-  height: 200px;
-  width: 200px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.teacher1,
+.teacher2,
+.teacher3,
+.teacher4,
+.teacher5 {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  opacity: 90%;
+}
+
+.teacher1 {
+  background-position-x: 50%;
+  background-image: url('img/teacher1.jpg');
+}
+
+.teacher1:hover {
+  background-image: none;
+  background-color: #eddc47;
+  cursor: pointer;
+}
+
+.teacher2 {
+  background-image: url('img/teacher2.jpg');
+}
+
+.teacher2:hover {
+  background-image: none;
+  cursor: pointer;
+  background-color: #50c56f;
+}
+
+.teacher3 {
+  background-position-x: 50%;
+  background-image: url('img/teacher3.jpg');
+}
+
+.teacher3:hover {
+  background-image: none;
+  cursor: pointer;
+  background-color: #eddc47;
+}
+
+.teacher4 {
+  background-position-x: 40%;
+  background-image: url('img/teacher4.jpg');
+}
+
+.teacher4:hover {
+  background-image: none;
+  cursor: pointer;
+  background-color: #2883ecde;
+}
+
+.teacher5 {
+  background-color: purple;
 }
 
 @media screen and (max-width: 620px) {
