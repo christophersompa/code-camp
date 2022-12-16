@@ -360,6 +360,7 @@ h2 {
 .digital-design-img {
   background-position: 50%;
   background-image: url('img/digital-design.jpg');
+  opacity: 95%;
 }
 
 .game-development-img {
