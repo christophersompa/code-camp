@@ -382,7 +382,7 @@ h2 {
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   margin: 20px 0px;
-  opacity: 85%;
+  opacity: 95%;
 }
 
 .enroll-now:hover {
@@ -412,9 +412,6 @@ h2 {
   font-weight: 300;
 }
 
-.teachers {
-}
-
 .grid-teacher {
   display: flex;
   flex-wrap: wrap;
@@ -433,6 +430,70 @@ h2 {
   opacity: 90%;
 }
 
+.details,
+.details-more {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+.details-more h1 {
+  padding: 30px 0px 0px 30px;
+  color: #fff;
+}
+
+.details h1,
+h3 {
+  font-size: 2rem;
+}
+
+.t-role {
+  color: #fff;
+}
+
+.details .t-name {
+  visibility: hidden;
+}
+
+.details:hover .t-name {
+  visibility: visible;
+}
+
+.details .t-role {
+  visibility: hidden;
+}
+
+.details:hover .t-role {
+  visibility: visible;
+}
+
+.t-btn {
+  position: relative;
+  top: 30%;
+  left: 60%;
+  width: auto;
+  font-size: 4.5rem;
+  visibility: hidden;
+}
+
+.details:hover .t-btn {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.details-more:hover .t-btn {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.t-name {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.t-role {
+  padding-left: 30px;
+}
+
 .teacher1 {
   background-position-x: 50%;
   background-image: url('img/teacher1.jpg');
@@ -441,7 +502,7 @@ h2 {
 .teacher1:hover {
   background-image: none;
   background-color: #eddc47;
-  cursor: pointer;
+  opacity: 100%;
 }
 
 .teacher2 {
@@ -450,8 +511,8 @@ h2 {
 
 .teacher2:hover {
   background-image: none;
-  cursor: pointer;
   background-color: #50c56f;
+  opacity: 100%;
 }
 
 .teacher3 {
@@ -461,8 +522,8 @@ h2 {
 
 .teacher3:hover {
   background-image: none;
-  cursor: pointer;
   background-color: #eddc47;
+  opacity: 100%;
 }
 
 .teacher4 {
@@ -472,8 +533,8 @@ h2 {
 
 .teacher4:hover {
   background-image: none;
-  cursor: pointer;
   background-color: #2883ecde;
+  opacity: 100%;
 }
 
 .teacher5 {
