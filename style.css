@@ -155,7 +155,7 @@ nav a:hover {
 
 .btn-learn-more:hover {
   background-color: #fff;
-  border: 1px solid transparent;
+  border: 1px dashed #000;
   opacity: 90%;
 }
 
@@ -233,7 +233,7 @@ nav a:hover {
 
 .btn-learn-more-bg2:hover {
   background-color: #fff;
-  border: 1px solid transparent;
+  border: 1px dashed #000;
   color: #000;
 }
 
@@ -294,7 +294,8 @@ nav a:hover {
 } */
 
 .bg3 {
-  background-color: #ec8a28de;
+  background-color: #ed4747;
+  /* background-color: #ec8a28de; */
   height: 100%;
   padding: 50px 80px;
 }
@@ -377,22 +378,24 @@ h2 {
   padding: 15px;
   border: 1px dashed #000;
   border-radius: 40px;
-  background-color: transparent;
+  background-color: #fff;
   color: #000;
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   margin: 20px 0px;
-  opacity: 95%;
+  opacity: 90%;
 }
 
 .enroll-now:hover {
-  border: 1px solid transparent;
+  border: 1px dashed #000;
   background-color: #fff;
   color: #000;
+  opacity: 100%;
   cursor: pointer;
 }
 
 .bg4 {
+  background-color: #7647ed;
 }
 
 .bg4-header {
@@ -408,10 +411,12 @@ h2 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 60px;
+  color: #fff;
 }
 
 .bg4-header p {
   font-weight: 300;
+  color: #fff;
 }
 
 .grid-teacher {
@@ -543,6 +548,10 @@ h3 {
 
 .teacher5 {
   background-color: purple;
+}
+
+.bg5 {
+  background-color: #ed4747;
 }
 
 @media screen and (max-width: 620px) {
