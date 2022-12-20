@@ -131,7 +131,7 @@ nav a:hover {
   width: 200px;
   margin: 10px;
   cursor: pointer;
-  opacity: 90%;
+  opacity: 88%;
 }
 
 .btn-learn-more {
@@ -156,7 +156,7 @@ nav a:hover {
 .btn-learn-more:hover {
   background-color: #fff;
   border: 1px dashed #000;
-  opacity: 90%;
+  opacity: 100%;
 }
 
 .creators-text {
@@ -214,7 +214,7 @@ nav a:hover {
   color: #50c56f;
   margin: 0px 10px;
   cursor: pointer;
-  opacity: 90%;
+  opacity: 88%;
 }
 
 .btn-learn-more-bg2 {
@@ -383,14 +383,14 @@ h2 {
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   margin: 20px 0px;
-  opacity: 90%;
+  opacity: 100%;
 }
 
 .enroll-now:hover {
   border: 1px dashed #000;
   background-color: #fff;
   color: #000;
-  opacity: 100%;
+  opacity: 90%;
   cursor: pointer;
 }
 
@@ -589,14 +589,14 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .group-class,
 .individual-class,
 .weekly-class {
   width: 400px;
-  height: 400px;
+  height: 300px;
   border-radius: 40px;
   margin: 0px 20px;
 }
