@@ -77,7 +77,6 @@ nav a:hover {
   width: 800px;
   height: 400px;
   background-position: center;
-  border: 1px dashed #000;
   border-radius: 20px;
   opacity: 80%;
 }
@@ -260,18 +259,19 @@ h2 {
 .digital-design,
 .game-development,
 .web-development {
-  width: 400px;
+  width: 350px;
   height: auto;
   padding: 20px;
-  padding-bottom: 40px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #fff;
 }
 
 .digital-design-img,
 .game-development-img,
 .web-development-img {
-  border: 1px dashed #fff;
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 200px;
   border-radius: 30px;
   margin-bottom: 20px;
   background-size: cover;
