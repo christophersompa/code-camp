@@ -57,7 +57,7 @@ nav a {
 
 nav a:hover {
   color: #fff;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .banner {
@@ -147,6 +147,7 @@ nav a:hover {
   width: 200px;
   margin: 10px;
   cursor: pointer;
+  transition: 1s;
 }
 
 .btn-trial:hover {
@@ -155,8 +156,7 @@ nav a:hover {
 
 .btn-learn-more:hover {
   background-color: #fff;
-  border: 1px dashed #000;
-  opacity: 100%;
+  border: 1px dashed transparent;
 }
 
 .creators-text {
@@ -229,11 +229,12 @@ nav a:hover {
   padding: 15px;
   margin: 0px 10px;
   cursor: pointer;
+  transition: 1s;
 }
 
 .btn-learn-more-bg2:hover {
   background-color: #fff;
-  border: 1px dashed #000;
+  border: 1px dashed transparent;
   color: #000;
 }
 
@@ -294,10 +295,10 @@ nav a:hover {
 } */
 
 .bg3 {
-  background-color: #ed4747;
+  background-color: #7647ed;
   /* background-color: #ec8a28de; */
   height: 100%;
-  padding: 50px 80px;
+  padding: 30px 80px;
 }
 
 .bg3-content {
@@ -349,7 +350,7 @@ h2 {
 .digital-design-img,
 .game-development-img,
 .web-development-img {
-  border: 1px dashed #000;
+  border: 1px dashed #fff;
   width: 500px;
   height: 300px;
   border-radius: 30px;
@@ -376,26 +377,26 @@ h2 {
 .enroll-now {
   width: 100%;
   padding: 15px;
-  border: 1px dashed #000;
+  border: 1px dashed #fff;
   border-radius: 40px;
-  background-color: #fff;
-  color: #000;
+  background-color: transparent;
+  color: #fff;
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   margin: 20px 0px;
   opacity: 100%;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .enroll-now:hover {
-  border: 1px dashed #000;
+  border: 1px dashed transparent;
   background-color: #fff;
   color: #000;
-  opacity: 90%;
-  cursor: pointer;
 }
 
 .bg4 {
-  background-color: #7647ed;
+  background-color: #ffffff;
 }
 
 .bg4-header {
@@ -411,12 +412,12 @@ h2 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 60px;
-  color: #fff;
+  color: #000;
 }
 
 .bg4-header p {
   font-weight: 300;
-  color: #fff;
+  color: #000;
 }
 
 .grid-teacher {
@@ -510,7 +511,7 @@ h3 {
 
 .teacher1:hover {
   background-image: none;
-  background-color: #ed4747;
+  background-color: #7647ed;
   opacity: 100%;
 }
 
@@ -531,7 +532,7 @@ h3 {
 
 .teacher3:hover {
   background-image: none;
-  background-color: #ed4747;
+  background-color: #7647ed;
   opacity: 100%;
 }
 
@@ -551,7 +552,7 @@ h3 {
 }
 
 .bg5 {
-  background-color: #eddc47;
+  background-color: #2883ecde;
 }
 
 .bg5-header {
@@ -567,7 +568,7 @@ h3 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 50px;
-  color: #000;
+  color: #fff;
   opacity: 90%;
 }
 
@@ -577,7 +578,7 @@ h3 {
 
 .bg5-header p {
   font-family: 'Quicksand', sans-serif;
-  color: #000;
+  color: #fff;
   width: 400px;
   padding-top: 15px;
   font-weight: 300;
@@ -596,21 +597,21 @@ h3 {
 .individual-class,
 .monthly-class {
   width: 400px;
-  height: 300px;
+  height: 200px;
   border-radius: 40px;
   margin: 0px 20px;
 }
 
 .group-class {
-  background-color: #ed4747;
+  background-color: #fff;
 }
 
 .individual-class {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .monthly-class {
-  background-color: #cc47ed;
+  background-color: #fff;
 }
 
 .group-content,
@@ -624,44 +625,56 @@ h3 {
 .monthly-class h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   font-size: 30px;
   padding-bottom: 6px;
 }
 
 .group-class h1,
 .individual-class h1,
-.month-class h1 {
+.monthly-class h1 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: 2.5rem;
-  color: #fff;
-  padding-bottom: 5px;
+  color: #000;
+  padding-bottom: 20px;
 }
 
 .group-m,
 .indi-m,
 .month-m {
-  color: #fff;
+  color: #000;
   font-size: 1rem;
   font-weight: 300;
   font-family: 'Quicksand', sans-serif;
   opacity: 60%;
 }
 
+.month-content a,
+.indi-content a,
+.group-content a {
+  text-decoration: none;
+}
+
 .price-btn {
+  display: block;
+  margin: 0 auto;
   width: 300px;
   padding: 10px;
   border: 1px dashed #000;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   text-transform: uppercase;
   font-family: 'Playfair Display', sans-serif;
   cursor: pointer;
+  transition: 1s;
 }
 
 .price-btn:hover {
-  opacity: 90%;
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: #000;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 620px) {
