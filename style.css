@@ -588,6 +588,48 @@ h3 {
   margin-top: 15px;
 }
 
+@media screen and (max-width: 1280px) {
+  .details {
+    position: relative;
+    top: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .details .t-name {
+    visibility: visible;
+  }
+
+  .details .t-role {
+    visibility: visible;
+    color: #000;
+  }
+
+  .details .t-name {
+    padding-top: 10px;
+  }
+
+  .teacher1:hover {
+    background-image: url('img/teacher1.jpg');
+    background-color: none;
+    opacity: 90%;
+  }
+  .teacher2:hover {
+    background-image: url('img/teacher2.jpg');
+    background-color: none;
+    opacity: 90%;
+  }
+  .teacher3:hover {
+    background-image: url('img/teacher3.jpg');
+    background-color: none;
+    opacity: 90%;
+  }
+  .teacher4:hover {
+    background-image: url('img/teacher4.jpg');
+    background-color: none;
+    opacity: 90%;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .creators-text {
     font-size: 75px;
@@ -657,25 +699,6 @@ h3 {
     text-align: center;
   }
 
-  .details {
-    position: relative;
-    top: 200px;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  .details .t-name {
-    visibility: visible;
-  }
-
-  .details .t-role {
-    visibility: visible;
-    color: #000;
-  }
-
-  .details .t-name {
-    padding-top: 10px;
-  }
-
   .bg5-header {
     text-align: center;
   }
@@ -718,13 +741,17 @@ h3 {
     font-size: 2.5rem;
   }
   .bg4-header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     padding-bottom: 10px;
   }
 
   .bg4-header h1,
   p {
     text-align: center;
+  }
+
+  .details .t-name {
+    visibility: visible;
   }
 }
 
