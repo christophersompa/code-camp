@@ -699,10 +699,32 @@ h3 {
 /*iPhone XR*/
 @media screen and (max-width: 414px) {
   .creators-text {
-    font-size: 50px;
+    font-size: 3rem;
   }
+
   .banner-img-import {
     height: 250px;
+  }
+
+  .bg2-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .btn-buynow-bg2 {
+    margin-bottom: 20px;
+  }
+
+  .bg3 h1 {
+    font-size: 2.5rem;
+  }
+  .bg4-header h1 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+  .bg4-header h1,
+  p {
+    text-align: center;
   }
 }
 
