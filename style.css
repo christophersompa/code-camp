@@ -588,6 +588,43 @@ h3 {
   margin-top: 15px;
 }
 
+/*custom media queries*/
+@media screen and (max-width: 599px) {
+  .bg2-content h2 {
+    font-size: 3rem;
+  }
+
+  .bg3 h1 {
+    font-size: 2.8rem;
+  }
+
+  .bg4-header h1,
+  p {
+    text-align: center;
+  }
+
+  .bg4-header p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .bg5-header h1 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .bg5-header hr {
+    margin: 0px;
+    visibility: hidden;
+  }
+
+  .group-class,
+  .individual-class,
+  .monthly-class {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .details {
     position: relative;
