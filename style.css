@@ -334,6 +334,9 @@ h2 {
 }
 
 .bg4-header p {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
   font-weight: 300;
   color: #000;
 }
@@ -892,5 +895,71 @@ h3 {
   .btn-trial,
   .btn-learn-more {
     width: 250px;
+  }
+
+  .bg2-content h2 {
+    font-size: 2rem;
+  }
+
+  .bg3 h1 {
+    font-size: 2rem;
+  }
+
+  .digital-design,
+  .game-development,
+  .web-development {
+    width: 200px;
+  }
+
+  .digital-design h2,
+  .game-development h2,
+  .web-development h2 {
+    font-size: 1.5rem;
+  }
+
+  .digital-design-img,
+  .game-development-img,
+  .web-development-img {
+    width: 200px;
+    height: 160px;
+  }
+
+  .bg4-header h1 {
+    font-size: 2rem;
+  }
+  .teacher1,
+  .teacher2,
+  .teacher3,
+  .teacher4,
+  .teacher5 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .details {
+    top: 120px;
+  }
+
+  .t-name,
+  .t-role {
+    padding-left: 10px;
+    font-size: 1.5rem;
+  }
+
+  .details-more h1 {
+    padding-left: 20px;
+    font-size: 2.3rem;
+  }
+
+  .group-class,
+  .individual-class,
+  .monthly-class {
+    width: 250px;
+  }
+
+  .group-content h3,
+  .indi-content h3,
+  .month-content h3 {
+    font-size: 1.3rem;
   }
 }
