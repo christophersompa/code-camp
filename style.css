@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 #bg-1 {
-  background-color: rgba(245, 221, 197, 0.362);
+  background-color: #28abeca9;
 }
 
 .banner {
@@ -63,7 +63,7 @@ nav a:hover {
   padding: 0px;
   line-height: 1;
   padding-top: 20px;
-  color: #000;
+  color: #fff;
 }
 
 .banner-img {
@@ -95,7 +95,7 @@ nav a:hover {
 .banner-text p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
-  color: #000;
+  color: #fff;
 }
 
 .banner-buttons {
@@ -142,7 +142,7 @@ nav a:hover {
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
 }
 
 .bg2 {
@@ -160,10 +160,10 @@ nav a:hover {
 }
 
 .bg2-content h2 {
-  font-size: 80px;
+  font-size: 4.2rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: #000;
+  color: #28abec70;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -212,7 +212,7 @@ nav a:hover {
 }
 
 .bg3 {
-  background-color: rgba(245, 221, 197, 0.362);
+  background-color: #28abeca9;
   height: 100%;
 }
 
@@ -228,7 +228,7 @@ nav a:hover {
   font-size: 60px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -243,7 +243,7 @@ h2 {
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #000;
+  color: #28abec70;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -330,7 +330,7 @@ h2 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 60px;
-  color: #000;
+  color: #28abec70;
 }
 
 .bg4-header p {
@@ -432,7 +432,8 @@ h3 {
 
 .teacher1:hover {
   background-image: none;
-  background-color: #7647ed;
+  /* background-color: #7647ed; */
+  background-color: #2883ecde;
   opacity: 100%;
 }
 
@@ -442,7 +443,8 @@ h3 {
 
 .teacher2:hover {
   background-image: none;
-  background-color: #50c56f;
+  /* background-color: #50c56f; */
+  background-color: #2883ecde;
   opacity: 100%;
 }
 
@@ -453,7 +455,8 @@ h3 {
 
 .teacher3:hover {
   background-image: none;
-  background-color: #7647ed;
+  /* background-color: #7647ed; */
+  background-color: #2883ecde;
   opacity: 100%;
 }
 
@@ -469,11 +472,13 @@ h3 {
 }
 
 .teacher5 {
-  background-color: purple;
+  background-color: #2883ecde;
+  /* background-color: purple; */
+  opacity: 100%;
 }
 
 .bg5 {
-  background-color: rgba(245, 221, 197, 0.362);
+  background-color: #28abeca9;
 }
 
 .bg5-header {
@@ -489,7 +494,7 @@ h3 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 50px;
-  color: #000;
+  color: #fff;
   opacity: 90%;
   text-align: center;
 }
@@ -500,7 +505,7 @@ h3 {
 
 .bg5-header p {
   font-family: 'Quicksand', sans-serif;
-  color: #000;
+  color: #fff;
   width: 400px;
   padding-top: 15px;
   font-weight: 300;
