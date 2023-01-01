@@ -875,6 +875,14 @@ h3 {
     background-color: none;
     opacity: 90%;
   }
+  .details:hover .t-btn {
+    visibility: hidden;
+  }
+
+  .details-more .t-btn {
+    visibility: visible;
+    z-index: 1;
+  }
 }
 
 @media screen and (max-width: 620px) {
