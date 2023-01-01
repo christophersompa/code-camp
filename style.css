@@ -43,7 +43,11 @@ nav a:hover {
 }
 
 #bg-1 {
-  background-color: #28abeca9;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 174, 255, 1) 0%,
+    rgba(105, 111, 221, 1) 100%
+  );
 }
 
 .banner {
@@ -156,14 +160,14 @@ nav a:hover {
   background-color: #fff;
   height: 100%;
   justify-content: center;
-  margin: 50px 0px 50px 0px;
+  margin: 100px 0px 100px 0px;
 }
 
 .bg2-content h2 {
   font-size: 4.2rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: #28abec70;
+  color: rgba(0, 0, 0, 0.765);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -212,7 +216,11 @@ nav a:hover {
 }
 
 .bg3 {
-  background-color: #28abeca9;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 174, 255, 1) 0%,
+    rgba(105, 111, 221, 1) 100%
+  );
   height: 100%;
 }
 
@@ -221,6 +229,7 @@ nav a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .bg3 h1 {
@@ -243,7 +252,7 @@ h2 {
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #28abec70;
+  color: rgba(0, 0, 0, 0.765);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -330,7 +339,7 @@ h2 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 60px;
-  color: #28abec70;
+  color: rgba(0, 0, 0, 0.765);
 }
 
 .bg4-header p {
@@ -433,7 +442,7 @@ h3 {
 .teacher1:hover {
   background-image: none;
   /* background-color: #7647ed; */
-  background-color: #2883ecde;
+  background-color: #645cffc7;
   opacity: 100%;
 }
 
@@ -444,7 +453,7 @@ h3 {
 .teacher2:hover {
   background-image: none;
   /* background-color: #50c56f; */
-  background-color: #2883ecde;
+  background-color: #645cffc7;
   opacity: 100%;
 }
 
@@ -456,7 +465,7 @@ h3 {
 .teacher3:hover {
   background-image: none;
   /* background-color: #7647ed; */
-  background-color: #2883ecde;
+  background-color: #645cffc7;
   opacity: 100%;
 }
 
@@ -467,18 +476,22 @@ h3 {
 
 .teacher4:hover {
   background-image: none;
-  background-color: #2883ecde;
+  background-color: #645cffc7;
   opacity: 100%;
 }
 
 .teacher5 {
-  background-color: #2883ecde;
+  background-color: rgba(0, 0, 0, 0.812);
   /* background-color: purple; */
   opacity: 100%;
 }
 
 .bg5 {
-  background-color: #28abeca9;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 174, 255, 1) 0%,
+    rgba(105, 111, 221, 1) 100%
+  );
 }
 
 .bg5-header {
