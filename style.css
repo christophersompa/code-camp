@@ -670,6 +670,7 @@ h3 {
   cursor: pointer;
   transition: 1s;
   margin-top: 15px;
+  color: #000;
 }
 
 /*custom media queries*/
@@ -996,8 +997,7 @@ h3 {
     padding-bottom: 10px;
   }
 
-  .bg4-header h1,
-  p {
+  .bg4-header h1 {
     text-align: center;
   }
 
