@@ -1040,6 +1040,13 @@ h3 {
 
 /*Galaxy Fold*/
 @media screen and (max-width: 280px) {
+  .burger {
+    padding-top: 30px;
+  }
+
+  .nav-menu {
+    top: 115px;
+  }
   .creators-text {
     font-size: 45px;
   }
@@ -1069,14 +1076,14 @@ h3 {
   .digital-design h2,
   .game-development h2,
   .web-development h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .digital-design-img,
   .game-development-img,
   .web-development-img {
-    width: 200px;
-    height: 160px;
+    width: 160px;
+    height: 120px;
   }
 
   .bg4-header h1 {
@@ -1092,7 +1099,7 @@ h3 {
   }
 
   .details {
-    top: 120px;
+    top: 100px;
   }
 
   .t-name,
@@ -1103,7 +1110,12 @@ h3 {
 
   .details-more h1 {
     padding-left: 20px;
-    font-size: 2.3rem;
+    font-size: 2rem;
+  }
+
+  .t-btn {
+    top: -5px;
+    left: 100px;
   }
 
   .group-class,
