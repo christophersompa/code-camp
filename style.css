@@ -76,7 +76,7 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
-  padding-top: 8px;
+  padding-top: 3px;
 }
 
 .burger div {
@@ -105,8 +105,9 @@ nav {
 }
 
 .banner h2 {
-  font-family: 'Playfair Display', sans-serif;
-  font-weight: 400;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
   font-size: 30px;
   text-transform: uppercase;
   text-align: center;
@@ -159,7 +160,8 @@ nav {
 .btn-trial {
   color: #000;
   background-color: #fff;
-  font-family: 'Playfair Display', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   padding: 15px;
   text-transform: uppercase;
@@ -175,7 +177,8 @@ nav {
 .btn-learn-more {
   color: #000;
   background-color: #fff;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
   font-weight: 300;
   padding: 15px;
   text-transform: uppercase;
@@ -235,8 +238,10 @@ nav {
 .btn-buynow-bg2 {
   width: 200px;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
   font-size: 14px;
+  font-weight: 300;
   border: 1px dashed #000;
   border-radius: 40px;
   background-color: transparent;
@@ -250,8 +255,10 @@ nav {
 .btn-learn-more-bg2 {
   width: 200px;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
   font-size: 14px;
+  font-weight: 300;
   border: 1px dashed #000;
   border-radius: 40px;
   background-color: transparent;
@@ -357,7 +364,9 @@ h2 {
   background-color: transparent;
   color: #000;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
   opacity: 100%;
   cursor: pointer;
   transition: 1s;
@@ -456,8 +465,8 @@ h3 {
 
 .t-btn {
   position: relative;
-  top: 30%;
-  left: 60%;
+  top: 70px;
+  left: 190px;
   width: auto;
   font-size: 4.5rem;
   visibility: hidden;
@@ -643,6 +652,7 @@ h3 {
 .indi-content a,
 .group-content a {
   text-decoration: none;
+  color: #000;
 }
 
 .price-btn {
@@ -654,7 +664,9 @@ h3 {
   border-radius: 20px;
   background-color: transparent;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
   cursor: pointer;
   transition: 1s;
   margin-top: 15px;
@@ -727,11 +739,6 @@ h3 {
 
   .bg4-header h1 {
     font-size: 2.8rem;
-  }
-
-  .bg4-header h1,
-  p {
-    text-align: center;
   }
 
   .bg5-header h1 {
@@ -823,8 +830,7 @@ h3 {
     font-size: 2.8rem;
   }
 
-  .bg4-header h1,
-  p {
+  .bg4-header h1 {
     text-align: center;
   }
 
