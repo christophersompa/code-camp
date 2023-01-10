@@ -685,11 +685,6 @@ footer a {
   color: #fff;
 }
 
-/* .socials a:hover {
-  transition: 0.5s;
-  opacity: 50%;
-} */
-
 footer p {
   padding: 0px;
   text-transform: uppercase;
@@ -711,6 +706,7 @@ footer p {
 }
 
 .footer-nav li {
+  font-size: 1rem;
   padding: 10px;
 }
 
