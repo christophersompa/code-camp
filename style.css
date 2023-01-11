@@ -691,6 +691,7 @@ footer p {
   font-weight: 300;
   color: #fff;
   text-align: center;
+  font-size: 0.95rem;
 }
 
 .socials,
@@ -706,7 +707,7 @@ footer p {
 }
 
 .footer-nav li {
-  font-size: 1rem;
+  font-size: 0.95rem;
   padding: 10px;
 }
 
