@@ -692,6 +692,7 @@ footer a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 2px;
 }
 
 footer p {
@@ -725,6 +726,22 @@ footer p {
 }
 
 /*custom media queries*/
+@media screen and (max-width: 460px) {
+  footer {
+    height: auto;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .f-links {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 862px) {
   .brand {
     padding-top: 15px;
@@ -1035,6 +1052,10 @@ footer p {
     font-size: 2.5rem;
   }
 
+  .banner-text p {
+    text-align: center;
+  }
+
   .btn-buynow-bg2 {
     margin-bottom: 20px;
   }
@@ -1095,15 +1116,31 @@ footer p {
     padding-top: 30px;
   }
 
+  .banner {
+    padding-top: 20px;
+  }
+
+  .banner h2 {
+    font-size: 1.8rem;
+  }
+
+  .creators-text {
+    font-size: 2rem;
+  }
+
   .nav-menu {
     top: 115px;
   }
-  .creators-text {
+
+  #bg-1 {
+    height: 600px;
+  }
+  /* .creators-text {
     font-size: 45px;
   }
   .banner-img-import {
     height: 150px;
-  }
+  } */
 
   .btn-trial,
   .btn-learn-more {
