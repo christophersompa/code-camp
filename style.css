@@ -15,7 +15,7 @@ body {
   padding: 20px 0px;
 }
 
-.brand h4 {
+.brand h3 {
   font-size: 2.2rem;
   font-weight: 300;
   color: #fff;
@@ -24,7 +24,7 @@ body {
   letter-spacing: 2px;
 }
 
-.brand h4:hover {
+.brand h3:hover {
   opacity: 80%;
   cursor: pointer;
 }
@@ -748,7 +748,7 @@ footer p {
     padding-left: 25px;
   }
 
-  .brand h4 {
+  .brand h3 {
     font-size: 2rem;
   }
 
